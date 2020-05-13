@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-05-13T01:37:43.158Z",
+    "end": "2020-05-13T01:37:43.158Z",
+    "duration": 4058,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0a013bd2-e616-4e14-afe4-754a7d87110d",
+      "title": "",
+      "fullFile": "cypress/integration/testes/test.spec.js",
+      "file": "cypress/integration/testes/test.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "07f12a59-8644-4c85-86cb-0bf2bcca45a2",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Sigin",
+              "fullTitle": "Login Sigin",
+              "timedOut": null,
+              "duration": 4058,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://react-redux.realworld.io/#/login?_k=08ody4');\ncy.get('input[type=\"email\"]').type('dayane.felix.freitas@gmail.com');\ncy.get('input[type=\"password\"]').type('ivaneide1412');\ncy.get('.btn').contains('Sign in').click();",
+              "err": {},
+              "uuid": "952401b4-9d81-4661-9a17-8b109ce9c5ae",
+              "parentUUID": "07f12a59-8644-4c85-86cb-0bf2bcca45a2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "952401b4-9d81-4661-9a17-8b109ce9c5ae"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4058,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}
